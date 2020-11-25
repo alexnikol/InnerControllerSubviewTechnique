@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondsController.swift
 //  ControllerSubviewExample
 //
 //  Created by Alexander Nikolaychuk on 25.11.2020.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class SecondsController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .blue
     }
-
-
+    
 }
-
